@@ -28,10 +28,20 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }   
-.button-container{
+.continue-button{
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.continue-b{
+    color: white;
+    background-color: #262626;
+    border: 0.1rem #9a5151 solid;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.continue-b:active{
+    background-color: #9a5151;
 }

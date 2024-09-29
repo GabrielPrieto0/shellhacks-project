@@ -28,9 +28,21 @@
     margin-top: 2rem;
     margin-bottom: 2rem;
 }   
+
 .button-container{
     display: flex;
     justify-content: center;
-    margin-top: 2rem;
-    margin-bottom: 2rem;
+}
+
+.continue-button{
+    color: white;
+    background-color: #262626;
+    border: 0.1rem #9a5151 solid;
+    width: 5rem;
+    height: 2rem;
+    cursor: pointer;
+}
+
+.continue-button:active{
+    background-color: #9a5151;
 }
